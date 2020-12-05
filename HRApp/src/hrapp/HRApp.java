@@ -13,7 +13,6 @@ public class HRApp {
         System.out.println(it);
         
         Employee[] staff = {
-            /*
             new Employee("ann",50.1),
             new Employee("ben",110.2),
             new Employee("clara",120.3),
@@ -27,7 +26,6 @@ public class HRApp {
             new Employee("kostas",200.1),
             new Employee("len",210.2),
             new Employee("moe",220.3),
-*/
         };
         
         for (Employee e : staff) {
@@ -35,7 +33,6 @@ public class HRApp {
         }
         
         System.out.println("ID 7: " + it.findEmployeeById(7));
-        //System.out.println("ID 100: " + it.findEmployeeById(100));
         
         System.out.println("Employees of " + it.getName() + ":");
         for (Employee e : it.getEmployees()){
@@ -49,9 +46,7 @@ public class HRApp {
         
         System.out.println("The avg salary within " + it.getName() +
                 " is: " + it.averageSalary());
-        
-        
-        
+
     }
     
 }
