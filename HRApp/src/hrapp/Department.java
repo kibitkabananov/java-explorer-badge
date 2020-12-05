@@ -1,4 +1,3 @@
-
 package hrapp;
 
 import java.util.ArrayList;
@@ -56,7 +55,7 @@ public class Department {
 
     @Override
     public String toString() {
-        return "Department: " + name;
+        return "Department: " + getName();
     }
     
 }
