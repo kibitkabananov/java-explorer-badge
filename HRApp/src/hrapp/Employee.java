@@ -40,6 +40,4 @@ public class Employee {
         return "Employee: " + id + " " + name + " " + salary;
     }
     
-    
-    
 }
