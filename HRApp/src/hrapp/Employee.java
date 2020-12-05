@@ -5,7 +5,7 @@ public class Employee {
     private int id;
     private String name;
     private double salary;
-    public static int count = 0;
+    private static int count = 0;
     private final static double MIN_SALARY = 100.0;
 
     public Employee(String name, double salary) {
@@ -37,7 +37,7 @@ public class Employee {
     
     @Override
     public String toString() {
-        return "Employee: " + id + " " + name + " " + salary;
+        return "Employee: " + getId() + " " + getName() + " " + getSalary();
     }
     
 }
